@@ -1,0 +1,15 @@
+import os
+
+os.system("sudo apt install golang")
+os.system("sudo apt install npm ")
+os.system("sudo apt install nodejs")
+os.system("sudo apt install perl")
+os.system("npm install request")
+os.system("npm install fake-useragent")
+os.system("npm install cloudflare-bypasser")
+os.system("npm install randomstring")
+os.system("npm install cloudscraper")
+os.system("npm install request")
+os.system("npm install shell_exec")
+os.system("chmod 777 ./100UP-TCP")
+os.system("chmod 777 ./UDPBYPASS")
