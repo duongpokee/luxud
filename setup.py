@@ -1,5 +1,8 @@
 import os
 
+os.system("curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -")
+os.system("pip install urllib3==1.26.6 ")
+os.system("pip install requests")
 os.system("sudo apt install golang")
 os.system("sudo apt install npm ")
 os.system("sudo apt install nodejs")
@@ -12,4 +15,4 @@ os.system("npm install cloudscraper")
 os.system("npm install request")
 os.system("npm install shell_exec")
 os.system("chmod 777 ./data/./100UP-TCP")
-os.system("chmod 777 .data/./UDPBYPASS")
+os.system("chmod 777 ./data/./UDPBYPASS")
